@@ -21268,7 +21268,7 @@ var app = (function () {
     	let colorScale = ordinal(Tableau10); // Color scale for departments
 
     	onMount(() => {
-    		csv('../capes_data.csv').then(loadedData => {
+    		csv('interactive-visualization-2/capes_data.csv').then(loadedData => {
     			data = loadedData;
     			processData();
     			drawGraph();
